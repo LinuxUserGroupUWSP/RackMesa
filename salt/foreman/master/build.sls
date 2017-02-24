@@ -52,6 +52,8 @@ foreman firewalld:
 #      - 69/udp        #TFTP Server
       - 4505/tcp       #Salt Master
       - 4506/tcp       #Salt Master
+    - services:
+      - ssh
 
 #this might not be necessary
 populate databases:
